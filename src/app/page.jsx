@@ -55,7 +55,7 @@ export default function Home() {
           <div className="w-0.5 h-12 bg-blue-900"></div>
 
           <div>
-            <button className="px-4 py-2 rounded-md bg-blue-800 text-white text-md font-semibold hover:bg-blue-600 cursor-pointer duration-200 transition-all">Sou funcionário</button>
+            <Link href="/pages/login" className="px-4 py-2 rounded-md bg-blue-800 text-white text-md font-semibold hover:bg-blue-600 cursor-pointer duration-200 transition-all">Sou funcionário</Link>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
 
       <div className="px-80 flex flex-col gap-4">
         <div>
-          <Image src="/banners/banner1.png" alt="logo da semde" width={20000} className="w-full h-40" height={30}></Image>
+          <Image src="/banner1.png" alt="logo da semde" width={20000} className="w-full h-40" height={30}></Image>
         </div>
 
         <div className="h-64 w-full bg-blue-950 mt-8 items-center flex justify-center">
