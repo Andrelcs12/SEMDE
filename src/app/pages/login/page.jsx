@@ -30,7 +30,7 @@ const LoginPage = () => {
 
 
                     <h3 className=' text-2xl font-bold text-gray-700 text-center'>Intranet SEMDE</h3>
-                    <h2 className='text-xl  text-gray-700 mb-8 text-center'>Secretaria de Desenvolvimento Econômico e Inovação</h2>
+                    <h2 className='text-xl  text-gray-700 mb-8 text-center'>Secretaria de Desenvolvimento Econômico e Inovaçãooo</h2>
 
                     <form className='space-y-6' onSubmit={handleSubmit}>
                         <div className='relative'>
